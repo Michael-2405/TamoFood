@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tamofoodapp/components/my_button.dart';
 import 'package:tamofoodapp/components/my_textfield.dart';
+import 'package:tamofoodapp/pages/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   final void Function()? onTap;
@@ -15,6 +16,15 @@ class _LoginPageState extends State<LoginPage> {
   // controladores
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
+
+  // metodo para loguearse
+  void login() {
+    // navegar a la pagina de inicia
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => HomePage()),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +73,7 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 10),
 
             // boton de registrarse
-            MyButton(text: 'Iniciar sesión', onTap: () {}),
+            MyButton(text: 'Iniciar sesión', onTap: login),
 
             const SizedBox(height: 25),
 
