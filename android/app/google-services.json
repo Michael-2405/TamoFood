@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "316774330747",
+    "project_id": "tamofoodapp",
+    "storage_bucket": "tamofoodapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316774330747:android:a1242e8a00c43fab994dde",
+        "android_client_info": {
+          "package_name": "com.example.tamofoodapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRW6n-69SdOILhwyCvdURVKZ_XQF_QSEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
